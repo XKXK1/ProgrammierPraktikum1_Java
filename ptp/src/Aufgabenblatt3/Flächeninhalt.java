@@ -31,7 +31,7 @@ public class Flächeninhalt {
 			System.out.println("Der Flächeninhalt des Quadrats beträgt " + 1.5*(x*x)*(Math.sqrt(3)) +" cm^2");
 		} else {
 			
-			System.out.println("Ungültige Eingabe");
+			System.out.println("Ungültige Eingabee");
 			
 		}
 		scan.close();
