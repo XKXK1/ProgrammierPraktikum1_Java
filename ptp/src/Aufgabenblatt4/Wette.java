@@ -4,7 +4,6 @@ public class Wette {
 	private String fahrerIn;
 	private int wettEinsatz;
 	private String spieler;
-	Wette[] wettliste;
 	int anzahlWetten;
 
 	// Konstruktor
@@ -13,8 +12,8 @@ public class Wette {
 		this.wettEinsatz = wettEinsatz;
 		this.spieler = spieler;
 	}
-	
-	
+
+	// Methoden
 	public String getFahrerIn() {
 		return fahrerIn;
 	}

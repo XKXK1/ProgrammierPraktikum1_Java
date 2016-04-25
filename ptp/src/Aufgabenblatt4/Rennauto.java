@@ -40,18 +40,15 @@ public class Rennauto {
 		this.maxSpeed = maxSpeed;
 	}
 
-	// Methode gefahrene Strecke berechenen mit Zufallsfaktor
+	// Methoden
+	/** Methode gefahrene Strecke berechenen mit Zufallsfaktor
+	 */
 	public void fahren() {
 		streckeBisher += maxSpeed * Math.random();
 	}
-
-	//
+     
+	
 	public void ausgeben() {
-		/*
-		 * System.out.format("Name der FahrerIn: " + this.nameFahrerIn +
-		 * "\nFahrzeugtyp: " + fahrzeugtyp + "\nMaximalgeschwindigkeit : " +
-		 * maxSpeed + " km/h" + "\nBisher zurückgelegte Strecke: %.2f Kilometer"
-		 * , streckeBisher);*/
 		 System.out.println(toString());
 	}
 
