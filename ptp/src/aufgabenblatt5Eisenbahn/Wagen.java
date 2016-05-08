@@ -38,5 +38,5 @@ public class Wagen {
 		this.naechsterWagen = naechsterWagen;
 
 	}
-
+	// comment
 }
