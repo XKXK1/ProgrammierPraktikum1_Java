@@ -1,3 +1,13 @@
+/**
+ * Praktikum TIPTP1, SS 2016
+ * Gruppe: Daniel von Drathen,
+ * Derya Uyargil
+ * Aufgabe: Aufgabenblatt 4, Aufgabe 2
+ */
+
+/**
+ * Testklasse fuer die Komposition des Package "aufgabenblatt5Eisenbahn"
+ */
 package aufgabenblatt5Eisenbahn;
 
 public class LokomotiveTest {
@@ -27,4 +37,3 @@ public class LokomotiveTest {
 	}
 
 }
-//comment

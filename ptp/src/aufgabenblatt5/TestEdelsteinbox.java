@@ -2,7 +2,7 @@
  * Praktikum TIPTP1, SS 2016
  * Gruppe: Daniel von Drathen,
  * Derya Uyargil
- * Aufgabe: Aufgabenblatt 4, Aufgabe 1
+ * Aufgabe: Aufgabenblatt 5, Aufgabe 1
  */
 
 /**

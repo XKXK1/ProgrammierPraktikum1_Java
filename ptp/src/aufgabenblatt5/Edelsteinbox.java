@@ -5,6 +5,19 @@
  * Aufgabe: Aufgabenblatt 5, Aufgabe 1
  */
 
+/**
+ * Eine Edelsteinbox soll als Behaelter fuer Edelsteine verschiedener Sorten dienen. 
+ * Es gibt 3 Sorten: Diamant, Rubin und Smaragdt.
+ * Fuer diese Edelsteinbox gibt es folgende Methoden.
+ * hineinlegen();
+ * herausnehmen();
+ * leeren();
+ * umwandeln();
+ * ausgeben();
+ * toString();
+ * getAnzahl();
+ * Die Namen dieser Methoden sind so selbsterklärend wie möglich. Ihre Funktion wird im Quellcode dennoch Erlaeutert.
+ */
 
 package aufgabenblatt5;
 
@@ -193,9 +206,6 @@ public class Edelsteinbox {
 
 			default :
 				return 0;
-
 		}
-
 	}
-
 }
