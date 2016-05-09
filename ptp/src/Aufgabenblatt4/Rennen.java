@@ -14,7 +14,7 @@ public class Rennen {
 
 	// Methoden
 	/**
-	 * addRennauto benutzt fügt ein Rennauto zu dem Array Autoliste hinzu. Die
+	 * "addRennauto" fügt ein Rennauto zu dem Array Autoliste hinzu. Die
 	 * Variable anzahlRennautos wird bei jedem hinzufügen um 1 erhöht. Wenn die
 	 * Anzahl der Rennautos gleich der groesse des Arrays autoliste ist wird die
 	 * Laenge verdoppelt.
@@ -30,9 +30,9 @@ public class Rennen {
 	}
 
 	/**
-	 * Es wird geprüft ob mindestens 1 Element des Arrays autoListe die
-	 * erstellte Streckenlänge erreicht hat und wird somit ausgegeben.
-	 * Falls nicht, wird "null" übergeben.
+	 * Es wird geprüft ob mindestens 1 Element des Arrays "autoListe" die
+	 * erstellte Streckenlänge erreicht hat. Dieses Element wird ausgegeben.
+	 * Falls nicht kein Element die Streckenlänge erreicht hat, wird "null" übergeben.
 	 */
 	public Rennauto ermittleSieger() {
 		for (int i = 0; i < anzahlRennautos; i++) {
