@@ -48,5 +48,10 @@ public class DoubleWert{
   public String toString(){
     return (String) doubleWert.toString();
   }
-  
+  /**
+   * kommentar
+   */
 }
+
+
+
