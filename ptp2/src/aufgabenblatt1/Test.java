@@ -36,9 +36,9 @@ public class Test {
 		int resultName = cn1.compare(derya, daniel);
 
 		if (resultName < 0) {
-			System.out.println(derya.getVorname() + " <- kommt nach diesem Namen im Alphabet -> " + daniel.getVorname());
-		} else if (resultName > 0) {
 			System.out.println(derya.getVorname() + " <- kommt vor diesem Namen im Alphabet -> " + daniel.getVorname());
+		} else if (resultName > 0) {
+			System.out.println(derya.getVorname() + " <- kommt nach diesem Namen im Alphabet -> " + daniel.getVorname());
 		} else {
 			System.out.println(derya.getVorname() + " <- gleiche stelle im alphabet -> " + daniel.getVorname());
 		}
