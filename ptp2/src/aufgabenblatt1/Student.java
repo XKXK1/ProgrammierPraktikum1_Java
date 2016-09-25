@@ -1,8 +1,9 @@
 package aufgabenblatt1;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class Student implements Comparable<Student> {
-
 
 	private String vorname;
 	private String nachname;
@@ -12,6 +13,8 @@ public class Student implements Comparable<Student> {
 		this.vorname = vorname;
 		this.nachname = nachname;
 		this.matrikelnummer = matrikelnummer;
+		List<Pruefungsleistung> list1 = new ArrayList<Pruefungsleistung>();
+		list1.add(new Pruefungsleistung(5,"mathe"));
 	}
 
 	public boolean equals(Student other) {
@@ -27,9 +30,8 @@ public class Student implements Comparable<Student> {
 			return -1;
 		} else
 			return 0;
-	
+
 	}
-	
 
 	@Override
 	public int hashCode() {
@@ -64,7 +66,5 @@ public class Student implements Comparable<Student> {
 	public int getMatrikelnummer() {
 		return matrikelnummer;
 	}
-
-	
 
 }
