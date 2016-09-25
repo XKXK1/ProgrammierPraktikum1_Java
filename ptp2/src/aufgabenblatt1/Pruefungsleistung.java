@@ -8,5 +8,6 @@ public class Pruefungsleistung {
 		this.note = note;
 		this.modulname = modulname;
 	}
+	
 
 }
